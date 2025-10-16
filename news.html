@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новости | Школа №7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="index.html">Школа №7</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="teachers.html">Учителям</a></li>
+                <li><a href="students.html">Ученикам</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="news-section">
+        <div class="news-container">
+            <h1 class="page-title">Последние новости</h1>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-date">15.12.2023</div>
+                    <h3>Открытие нового компьютерного класса</h3>
+                    <p>В школе открыт современный компьютерный класс, оснащенный последними моделями техники для изучения программирования и IT-технологий.</p>
+                    <a href="#" class="read-more">Читать далее</a>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-date">10.12.2023</div>
+                    <h3>Победа в городской олимпиаде по математике</h3>
+                    <p>Ученики нашей школы заняли первое место в городской олимпиаде по математике. Поздравляем победителей и их преподавателей!</p>
+                    <a href="#" class="read-more">Читать далее</a>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-date">05.12.2023</div>
+                    <h3>Научная конференция "Будущее технологий"</h3>
+                    <p>Приглашаем всех желающих на ежегодную научную конференцию, где ученики представят свои проекты и исследования.</p>
+                    <a href="#" class="read-more">Читать далее</a>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-date">01.12.2023</div>
+                    <h3>Обновление школьной библиотеки</h3>
+                    <p>Школьная библиотека пополнилась новыми учебниками и художественной литературой. Приходите за новыми знаниями!</p>
+                    <a href="#" class="read-more">Читать далее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

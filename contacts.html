@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты | Школа №7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="index.html">Школа №7</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="teachers.html">Учителям</a></li>
+                <li><a href="students.html">Ученикам</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contacts-section">
+        <div class="contacts-container">
+            <h1 class="page-title">Контакты</h1>
+            
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <h2>Контактная информация</h2>
+                    
+                    <div class="contact-item">
+                        <h3>📞 Телефоны</h3>
+                        <p>+7 (495) 123-45-67 - директор</p>
+                        <p>+7 (495) 123-45-68 - секретарь</p>
+                        <p>+7 (495) 123-45-69 - учительская</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p>school7@edu.ru - общие вопросы</p>
+                        <p>director@school7.edu.ru - директору</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📍 Адрес</h3>
+                        <p>г. Москва, ул. Школьная, д. 7</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>🕒 Режим работы</h3>
+                        <p>Пн-Пт: 8:00 - 18:00</p>
+                        <p>Сб: 8:00 - 14:00</p>
+                        <p>Вс: выходной</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Напишите нам</h2>
+                    <form class="message-form">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Ваш email" required>
+                        <input type="text" placeholder="Тема сообщения" required>
+                        <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

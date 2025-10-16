@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ученикам | Школа №7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="index.html">Школа №7</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="teachers.html">Учителям</a></li>
+                <li><a href="students.html">Ученикам</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="students-section">
+        <div class="students-container">
+            <h1 class="page-title">Информация для учеников</h1>
+            
+            <div class="students-grid">
+                <div class="student-card">
+                    <h3>📚 Расписание уроков</h3>
+                    <p>Актуальное расписание на текущую неделю</p>
+                    <a href="#" class="student-link">Посмотреть</a>
+                </div>
+                
+                <div class="student-card">
+                    <h3>🏆 Олимпиады и конкурсы</h3>
+                    <p>Информация о предстоящих олимпиадах и конкурсах</p>
+                    <a href="#" class="student-link">Участвовать</a>
+                </div>
+                
+                <div class="student-card">
+                    <h3>🎨 Кружки и секции</h3>
+                    <p>Дополнительные занятия и внеурочная деятельность</p>
+                    <a href="#" class="student-link">Выбрать</a>
+                </div>
+                
+                <div class="student-card">
+                    <h3>📋 Электронный дневник</h3>
+                    <p>Доступ к электронному дневнику и оценкам</p>
+                    <a href="#" class="student-link">Войти</a>
+                </div>
+                
+                <div class="student-card">
+                    <h3>📖 Учебные материалы</h3>
+                    <p>Полезные ресурсы для самостоятельной подготовки</p>
+                    <a href="#" class="student-link">Изучить</a>
+                </div>
+                
+                <div class="student-card">
+                    <h3>🎓 Подготовка к ОГЭ</h3>
+                    <p>Материалы для подготовки к ОГЭ по математике и другим предметам</p>
+                    <a href="oge-matematika.html" class="student-link">Начать подготовку</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

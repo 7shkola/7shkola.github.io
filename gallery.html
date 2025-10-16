@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея | Школа №7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="index.html">Школа №7</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="teachers.html">Учителям</a></li>
+                <li><a href="students.html">Ученикам</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery-section">
+        <div class="gallery-container">
+            <h1 class="page-title">Галерея школы</h1>
+            
+            <div class="gallery-categories">
+                <button class="category-btn active" data-category="all">Все фото</button>
+                <button class="category-btn" data-category="events">Мероприятия</button>
+                <button class="category-btn" data-category="lessons">Уроки</button>
+                <button class="category-btn" data-category="sport">Спорт</button>
+                <button class="category-btn" data-category="excursions">Экскурсии</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image"></div>
+                    <p>Выпускной вечер 2023</p>
+                </div>
+                
+                <div class="gallery-item" data-category="lessons">
+                    <div class="gallery-image"></div>
+                    <p>Урок программирования</p>
+                </div>
+                
+                <div class="gallery-item" data-category="sport">
+                    <div class="gallery-image"></div>
+                    <p>Спортивные соревнования</p>
+                </div>
+                
+                <div class="gallery-item" data-category="excursions">
+                    <div class="gallery-image"></div>
+                    <p>Экскурсия в музей</p>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image"></div>
+                    <p>Новогодний праздник</p>
+                </div>
+                
+                <div class="gallery-item" data-category="lessons">
+                    <div class="gallery-image"></div>
+                    <p>Химическая лаборатория</p>
+                </div>
+                
+                <div class="gallery-item" data-category="sport">
+                    <div class="gallery-image"></div>
+                    <p>Турнир по шахматам</p>
+                </div>
+                
+                <div class="gallery-item" data-category="excursions">
+                    <div class="gallery-image"></div>
+                    <p>Поход в лес</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
