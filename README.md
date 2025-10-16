@@ -1,0 +1,1 @@
+# 7shkola.github.io
