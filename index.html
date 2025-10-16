@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Школа №7 | Официальный сайт</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="gallery-grid">
+  <a href="images/big/photo1.jpg" class="gallery-item">
+    <img src="images/small/photo1_small.jpg" alt="Описание фото 1">
+  </a>
+  <a href="images/big/photo2.jpg" class="gallery-item">
+    <img src="images/small/photo2_small.jpg" alt="Описание фото 2">
+  </a>
+  <!-- Добавьте остальные изображения -->
+</div>
+    <div class="background-slider">
+        <div class="slide active"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="#">Школа №7</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="teachers.html">Учителям</a></li>
+                <li><a href="students.html">Ученикам</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero">
+            <h1>Школа №7 - Образование будущего</h1>
+            <p>
+                Современная школа с богатыми традициями и инновационными подходами к обучению. 
+                Мы создаем условия для раскрытия талантов каждого ученика и готовим к успешному будущему.
+            </p>
+            <div class="buttons">
+                <a href="about.html" class="join">Узнать больше</a>
+                <a href="contacts.html" class="learn">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles-section">
+        <div class="article-container">
+            <div class="article-card">
+                <div class="article-header">
+                    <div class="article-meta">
+                        <span class="reading-time">10 мин</span>
+                        <span class="views">69К</span>
+                    </div>
+                    <div class="article-tags">
+                        <span class="tag">Программирование микроконтроллеров</span>
+                        <span class="tag">Интерфейсы</span>
+                        <span class="tag">Робототехника</span>
+                    </div>
+                </div>
+                
+                <h2 class="article-title">Разрабатываем крутой GUI на esp8266 с библиотекой udFX</h2>
+                
+                <div class="article-content">
+                    <p>В многих проектах для esp8266 я использую TFT экран с тачскрином. В зависимости от проекта интерфейс может быть простым, например, текстовая консоль, выводящая лог работы приложения или просто график изменения входного сигнала. А в некоторых — сложный GUI, с несколькими экранами, графическими кнопками, строками ввода текста и даже виртуальной клавиатурой.</p>
+                    <p>В этой статье хочу поделиться опытом, как можно подключить экран с тачскрином к esp8266 и реализовать графический интерфейс в среде Arduino.</p>
+                </div>
+                
+                <div class="article-footer">
+                    <div class="video-teaser">
+                        <span class="video-icon">▶</span>
+                        <span>Смотреть видео</span>
+                    </div>
+                    <button class="share-btn">Поделиться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
